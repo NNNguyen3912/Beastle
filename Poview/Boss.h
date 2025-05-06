@@ -40,12 +40,11 @@ private:
 
     Boss_skill skill;
 
-    // Chiêu thức thứ 2
     float skill2Timer;
     bool usingSkill2;
     int attackCount;
-    float attackDurationTimer; // Theo dõi thời gian mỗi lần tấn công trong chiêu 2
-    const float attackDuration = 0.6f; // Mỗi lần tấn công kéo dài 0.6 giây
+    float attackDurationTimer; 
+    const float attackDuration = 0.6f; 
     float pillarTimer;
     const float pillarInterval = 0.15f;
     std::vector<LightPillar> pillars;

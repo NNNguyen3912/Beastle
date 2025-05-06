@@ -158,7 +158,7 @@ bool Boss::checkCollision(const sf::FloatRect& playerBounds, bool& gameOver) con
     }
 
     for (const auto& pillar : pillars) {
-        if (pillar.canCollide() && pillar.getCollisionBounds().intersects(playerBounds)) { // Dùng getCollisionBounds
+        if (pillar.canCollide() && pillar.getCollisionBounds().intersects(playerBounds)) { 
             gameOver = true;
             std::cout << "Game Over! Light Pillar hit Player!" << std::endl;
             return true;

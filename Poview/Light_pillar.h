@@ -11,7 +11,7 @@ public:
     void draw(sf::RenderWindow& window) const;
     sf::FloatRect getBounds() const;
     bool isFinished() const;
-    bool canCollide() const; // Cột sáng có thể va chạm
+    bool canCollide() const; 
     sf::FloatRect getCollisionBounds() const;
 
 private:

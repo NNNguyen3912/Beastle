@@ -14,8 +14,8 @@ public:
 private:
     struct Bullet {
         sf::Sprite sprite;
-        float angle;       // Góc của viên đạn trên vòng tròn (độ)
-        float radius;      // Bán kính hiện tại của viên đạn
+        float angle;       
+        float radius;     
         bool active;
         sf::FloatRect getCollisionBounds() const;
         
@@ -25,9 +25,9 @@ private:
     sf::Texture* bulletTexture;
     std::vector<Bullet> bullets;
     float skillTimer;
-    const float skillInterval = 6.0f;   // Bắn mỗi 6 giây
-    const float expandSpeed = 200.0f;   // Tốc độ mở rộng của vòng tròn (pixel/giây)
-    const float initialRadius = 50.0f;  // Bán kính ban đầu của vòng tròn
+    const float skillInterval = 6.0f; 
+    const float expandSpeed = 200.0f;   
+    const float initialRadius = 50.0f; 
 };
 
 #endif

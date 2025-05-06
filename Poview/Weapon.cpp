@@ -2,7 +2,7 @@
 
 Weapon::Weapon(float x, float y, sf::Texture& texture) {
     bullet.setTexture(texture);
-    bullet.setOrigin(50, 50); // Tâm sprite: 100/2 = 50
+    bullet.setOrigin(50, 50); 
     bullet.setPosition(x, y);
     active = false;
 }

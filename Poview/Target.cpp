@@ -2,7 +2,7 @@
 
 Target::Target(float x, float y, sf::Texture& texture) : moving(false) {
     sprite.setTexture(texture);
-    sprite.setOrigin(25, 25); // Kích thước 50x50, tâm ở 25,25
+    sprite.setOrigin(25, 25); 
     sprite.setPosition(x, y);
     velocity = sf::Vector2f(0.0f, 0.0f);
 }

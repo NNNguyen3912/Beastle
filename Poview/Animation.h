@@ -11,8 +11,8 @@ public:
     void update(float deltaTime);
     void applyToSprite(sf::Sprite& sprite) const;
     void reset();
-    size_t getCurrentFrame() const; // Thêm phương thức lấy frame hiện tại
-    size_t getFrameCount() const;   // Thêm phương thức lấy số lượng frame
+    size_t getCurrentFrame() const;
+    size_t getFrameCount() const;  
     sf::Texture* getTexture() const;
 
 private:
